@@ -1,29 +1,24 @@
 {
-  "name": "wechat-deleted-friends",
+  "name": "wechat-parse-message",
   "version": "1.0.0",
-  "description": "查看被删的微信好友 Node.js版",
   "main": "lib/wdf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chemdemo/wechat-deleted-friends.git"
+    "type": "git"
   },
   "keywords": [
     "wechat",
-    "wechat-deleted-friends"
+    "wechat-parse-message"
   ],
-  "author": "dmyang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chemdemo/wechat-deleted-friends/issues"
-  },
-  "homepage": "https://github.com/chemdemo/wechat-deleted-friends#readme",
   "dependencies": {
+    "bluebird": "^3.5.5",
     "colors": "^1.1.2",
     "cookie": "^0.2.3",
     "lodash": "^3.10.1",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.26.1"
   }
 }
