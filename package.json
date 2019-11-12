@@ -16,7 +16,7 @@
     "bluebird": "^3.5.5",
     "colors": "^1.1.2",
     "cookie": "^0.2.3",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "open": "0.0.5",
     "qrcode-terminal": "^0.12.0",
     "wechaty": "^0.26.1"
